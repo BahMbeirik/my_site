@@ -1,0 +1,28 @@
+.projet{
+    display: flex;
+    width: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+    border: 1px solid black;
+    margin-top: 80px;
+    height: 300px;
+}
+.lp{
+    font-size: 1.8rem;
+    color: rgb(148, 145, 145);
+}
+.c-lp{
+    font-size: 0.8rem;
+    color: black;
+}
+.c-projet{
+    display: flex;
+    width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 25px;
+    background-color: #5904c2;
+    color: white;
+}

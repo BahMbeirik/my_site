@@ -1,0 +1,33 @@
+.Container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 95%;
+    height: 590px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 0px;
+    /* background: transparent; */
+    /* backdrop-filter: blur(20px); */
+    background-color:rgba(51, 50, 50, 0.071);
+    border: 2px solid rgba(255, 255, 255, .5);
+    
+}
+
+.CCT{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 48px;
+}
+
+.CCT1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 100px;
+}

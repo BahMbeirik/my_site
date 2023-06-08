@@ -1,0 +1,97 @@
+.bod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.home{
+    display: flex;
+    width: 1000px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+    border: 1px solid black;
+    margin-top: 80px;
+    height: 400px;
+    justify-content: center;
+}
+.mn7{
+    background-color: blue;
+    height: 33px;
+    width: 160px;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+}
+.g-about{
+    display: flex;
+    width: 1000px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    height: 335px;
+    justify-content: center;
+
+}
+.about{
+    display: flex;
+    width: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+    /* border: 1px solid black; */
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profil{
+    display: flex;
+    width: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+    /* border: 1px solid black; */
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.sz{
+    font-size: 1rem;
+    color: rgb(77, 76, 76);
+}
+.mg{
+    border: 1px solid #ed3939;
+  border-radius: 50%;
+  width: 135px;
+  height: 140px;
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        display: flex;
+        width: 470px;
+        border-radius: 15px;
+        overflow: hidden;
+        padding: 5px;
+        backdrop-filter: blur(5px);
+        border: 1px solid black;
+        margin-top: 80px;
+        height: 400px;
+        justify-content: center;
+    }
+
+}
